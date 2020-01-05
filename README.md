@@ -1,24 +1,22 @@
 <div style="text-align: center">
 
-# Bytecode Digital Agency B.V. Coding Standards
+# WISV CH coding standards
 
-[![Developed by](https://img.shields.io/badge/Developed%20by-Bytecode.nl-green.svg)](https://bytecode.nl)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![FOSSA Status](https://app.fossa.io/api/projects/custom%2B4543%2Fgit%40git.bytedev.io%3Abytecode%2Fcoding-standards.git.svg?type=shield)](https://app.fossa.io/projects/custom%2B4543%2Fgit%40git.bytedev.io%3Abytecode%2Fcoding-standards.git?ref=badge_shield)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/59b7a5078ae345fd9c5fb4f4e27d59aa)](https://www.codacy.com/app/lucianonooijen/coding-standards_2?utm_source=git.bytedev.io&amp;utm_medium=referral&amp;utm_content=bytecode/coding-standards&amp;utm_campaign=Badge_Grade)
 
 </div>
 
 ## About
 
-The coding standards for developers at Bytecode Digital Agency B.V. to ensure code health and quality of the products delivered to our clients.
+A fork of the coding standards used by Bytecode Digital Agency B.V.
+
+The coding standards for developers to ensure code health and quality of the products delivered to our clients.
 
 All of our conventions regarding indentation and such can also be found in the form of an `.editorconfig` file.
 
 Please read this file thoroughly, and also check out the links in the [Final words](#final-words) section. Spending half an hour now can save you many hours during projects!
-
-*For installing all Javascript/Typescript linting dependencies, you can use a shell script, just run `curl https://raw.githubusercontent.com/BytecodeAgency/Coding-Standards/master/bin/bootstrap | bash` while within the repo you want to bootstrap*
 
 # Table of Contents
 
@@ -30,7 +28,6 @@ We will discuss the following points in this Coding Standards file:
 * [Typescript](./docs/typescript)
 * [PHP](./docs/php)
 * [Python](./docs/python)
-* [Elixir](./docs/elixir)
 * [HTML, CSS, SASS](./docs/html)
 * [Git](./docs/git)
 * [Docker](./docs/docker)
@@ -71,3 +68,4 @@ The following sources are used for the creation of this Coding Guidelines file, 
 
 * [Luciano Nooijen - Bytecode Digital Agency B.V.](https://bytecode.nl)
 * [Jeroen van Steijn - Bytecode Digital Agency B.V.](https://bytecode.nl)
+* Julian van Dijk - WISV CH
