@@ -20,7 +20,7 @@ deploy:
   skip_cleanup: true
   github_token: $SECRET_GITHUB_ACCESS_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
-  local_dir: build/coding-standards
+  local_dir: build/coding-standards/*
   on:
     branch: master
 
