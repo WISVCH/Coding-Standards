@@ -9,13 +9,13 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Bytecode Coding Standards', // Title for your website.
-  tagline: 'The Coding Standards used for projects by Bytecode Digital Agency B.V.',
-  url: 'https://bytecode.github.io/', // Your website URL
+  title: 'wisvch Coding Standards', // Title for your website.
+  tagline: 'The Coding Standards used for projects by wisvch',
+  url: 'https://wisvch.github.io/', // Your website URL
   baseUrl: '/coding-standards/', // Base URL for your project */
 
   projectName: 'coding-standards',
-  organizationName: 'bytecode',
+  organizationName: 'wisvch',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -50,7 +50,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Bytecode Digital Agency B.V.`,
+  copyright: `Copyright © ${new Date().getFullYear()} wisvch`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
