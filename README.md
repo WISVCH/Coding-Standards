@@ -22,15 +22,15 @@ Please read this file thoroughly, and also check out the links in the [Final wor
 
 We will discuss the following points in this Coding Standards file:
 
-* [General](./docs/general)
-* [Testing](./docs/testing)
-* [Security](./docs/security)
-* [Typescript](./docs/typescript)
-* [PHP](./docs/php)
-* [Python](./docs/python)
-* [HTML, CSS, SASS](./docs/html)
-* [Git](./docs/git)
-* [Docker](./docs/docker)
+* [General](./docs/gen_general)
+* [Testing](./docs/gen_testing)
+* [Security](./docs/gen_security)
+* [Typescript](./docs/gen_typescript)
+* [PHP](./docs/lang_php)
+* [Python](./docs/lang_python)
+* [HTML, CSS, SASS](./docs/lang_html)
+* [Git](./docs/gengit)
+* [Docker](./docs/gen_docker)
 
 # Final words
 
