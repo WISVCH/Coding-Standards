@@ -1,0 +1,30 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+  - "10"
+
+install:
+  - npm i -g yarn
+
+before_script:
+  - cd website
+  - yarn
+  
+script:
+  - yarn run build
+  - mv build ../build
+  
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $SECRET_GITHUB_ACCESS_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: build/coding-standards
+  on:
+    branch: master
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
